@@ -1,0 +1,20 @@
+AddToLnventoryList
+
+using UnityEngine;
+usingSystem.Collections;
+
+//Add another script to make a name of List.
+//Public is the name of a class. 
+//myInventory and myWeapon are now one statement.
+//To add all the buttons and a component to one statement. 
+
+public class AddToInventoryLists : MonoBehaviour 
+
+	public Lists myInventory;
+	public string myWeapon;
+
+	public void AddToList ()
+
+	{
+		myInventory
+	}
