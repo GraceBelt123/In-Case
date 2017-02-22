@@ -1,0 +1,32 @@
+using UnityEngine;
+using System.Collections;
+using System.Collections.Generic;
+
+public class Lists : MonoBehaviour {
+
+// Lists are in the collections. 
+// Datetype is string and it is going to be myString. 
+// Lists are not function. It's an object. 
+// To the change the subject of the name to myWeaponStrings from myStrings or sometimes, both can be used
+// And myWeaponArray can be changed the subject of the name which is the same thing as above this sentence. 
+// If want to add, the inside of a parameter can be used as called of an any weapon as a give a name.  
+// The void is a fuction type. 
+
+//Add another script to make a name of List.
+//Public is the name of a class. 
+//myInventory and myWeapon are now one statement.
+//To add all the buttons and a component to one statement. 
+
+public List<string> myStrings;
+	public string[] myWeaponArray;
+
+	//Use this for initialization
+	void Start () {
+		myStringList.Add("Ax");
+		myStringList.Add("Sword");
+		myStringList.Add("Bow")
+		myStringList.Add("Dagger")
+    
+    }
+}
+		
