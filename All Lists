@@ -16,7 +16,7 @@ public class Lists : MonoBehaviour {
 //Public is the name of a class. 
 //myInventory and myWeapon are now one statement.
 //To add all the buttons and a component to one statement. 
-//As you can see the delete the start, for now like it's doesn't exist because I going to make more examples.
+//As you can see the delete the start, for now like it's doesn't exist. Cause I am going to make more examples and comments. 
 
 
 // Delete the start
@@ -49,3 +49,4 @@ public class AddToInventoryLists : MonoBehaviour
 	{
 		myInventory
 	}
+
