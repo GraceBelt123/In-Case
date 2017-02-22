@@ -7,15 +7,10 @@ public class Lists : MonoBehaviour {
 // Lists are in the collections. 
 // Datetype is string and it is going to be myString. 
 // Lists are not function. It's an object. 
-// To the change the subject of the name to myWeaponStrings from myStrings or sometimes, both can be used
+// To the change the subject of the name to myWeaponStrings from myStrings or sometimes, both can be used for
 // And myWeaponArray can be changed the subject of the name which is the same thing as above this sentence. 
-// If want to add, the inside of a parameter can be used as called of an any weapon as a give a name.  
+// If want to add, the inside of a () can be used as called of an any weapon as a give a name.  
 // The void is a fuction type. 
-
-//Add another script to make a name of List.
-//Public is the name of a class. 
-//myInventory and myWeapon are now one statement.
-//To add all the buttons and a component to one statement. 
 //As you can see the delete the start, for now like it's doesn't exist. Cause I am going to make more examples and comments. 
 
 
@@ -32,7 +27,8 @@ public List<string> myStrings;
 		myStringList.Add("Dagger")
 		
 
-//To make a new script called Lists. 
+//To make a new script called Lists but I am not going to make by using UnityEngine; and the second sentence or even third 
+because it's already above as the first top. Down Below are the examples. 
 //And here's the Lists
 
 //Public is the name of a class. 
@@ -47,6 +43,15 @@ public class AddToInventoryLists : MonoBehaviour
 	public void AddToList ()
 
 	{
-		myInventory
+		myInventoryList.Add("Iron Dagger");// Inside (), is just a give a name of any weapon. Same thing as above. 
+		myInventoryList.Add("Big Hammer");
+		myInventoryList.Add("Lightning Bow");
+		myInventoryList.Add("Spear");
+		
 	}
+}
+
+
+
+
 
