@@ -1,0 +1,22 @@
+using UnityEngine;
+using System.Collections;
+
+public class BadIfStatements : MonoBehaviour {
+
+    public string animal = "Cat";
+
+	// Use this for initialization
+	void Start () {
+
+        if(animal == "Cat")
+        {
+            print("Cat");
+        }
+        if (animal == "Dog")
+        {
+              
+        }
+
+	
+	}
+}
