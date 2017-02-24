@@ -1,0 +1,141 @@
+using UnityEngine:
+using System.Collections;
+
+public class ElseClause : MonoBehaviour {
+
+	public string password;
+	public bool userAgreement;
+	
+	//Use this for initialization
+	void Start () {
+	
+	// || or && can be used for, example or
+  // the example of the cup of coffee is to shows that it would make a decision base on the condition. 
+  // == is equal, next to "OUB12", example for a shorthand version to see if it's true on base. 
+  // ifstatement and ElseClause were together but you need ifstatement to have a ElseClause. 
+  // "else if" is a statement between if and else.
+  // The ElseClause is always opposite the statement, the example of myBool which works with ElseClause.
+  // If there are only two outcomes, meaning true or false that you can use for ifstatement. If there's more than two outcomes, don't use ifstatement that becomes else if. 
+
+		if(password == "OUB12" || userArgreement)// the statement gives a choice about the password or the user argreement, so they can get in with either one. 
+		{
+			print("Correct");// The example of if print(true) about basing on true. 
+		}
+		else
+		{
+			print("Incorrect");// The example of if print(false) about defaulting to false.
+                         
+		}    
+		
+  // The middle in between the opening and closing is print("Correct");. And print("Incorrect") as well. 
+  // else is an opposite. 
+  // The password when someone type it's own, if it's correct but if happened to have an error which is incorrect. 
+		
+		if(password == "BBO23")
+		{
+			print("Correct");// if(password == "Upper letter and number") is basing on correct. 
+	        }
+		else
+		{
+			print("Incorrect");// if(password == "Upper letter and number") is basing on incorrect. 
+		}
+		if(password == "UpCat")
+		{
+			print("correct");
+		}
+		else
+		{
+			print("Incorrect");
+		}
+		if(password == "HAD90")
+		{	
+			print("Correct");
+		}
+		else
+		{
+			print("Incorrect");
+		}
+		if(password == "NOT90")
+		{
+			print("Correct");
+		}
+		else
+		{
+			print("Incorrect");
+		}
+		if(password == "Mr.90")
+		{
+			print("Correct");
+		}
+		else
+		{
+			print("InCorrect");
+		}
+		if(password == "BEL90")
+		{
+			print("Correct");
+		}
+		else
+		{
+			print("Incorrect");
+		}
+		if(password == "HAP45")
+		{
+			print("Correct");
+		}
+		else
+		{
+			print("Incorrect");
+		}
+		if(password == "YES90")
+		{
+			print("Correct");
+		}
+		else
+		{
+			print("Incorrect");
+		}
+		if(password == "NOP23")
+		{
+			print("Correct");
+		}
+		else
+		{
+			print("Incorrect");
+		}
+		if(password == "UPO21")
+		{
+			print("Correct");
+		}
+		else
+		{
+			print("Incorrect");
+		}
+		if(password == "VAN90")
+		{
+			print("Correct");
+		}
+		else
+		{
+			print("Incorrect");
+		}
+		if(password == "UPO90")
+		{
+			print("Correct");
+		}
+		else
+		{
+			print("Incorrect";
+		}
+		if(password == "NOU90")
+		{
+			print("Correct");
+		}
+		else
+		{
+			print("Incorrect");
+		}
+		
+	}
+					
+}
