@@ -1,0 +1,110 @@
+using UnityEngine;
+using System.Collections;
+
+// The same type together of Arrays are a storing and a collection including date. 
+// The how many numbers integers, example 2 integers would be myIntA and myIntB. 
+// To start with int and then declaring a individual variable as the [].
+// The type is the variable as the int.
+// And the nameOfArrays, example myInt to start with the first letter need to be lowercase and the first letter of Int need to be uppercase.
+// The right standing is next to = is the length, the given a name and the type of arrays. 
+// After the sentence, the given a name is standing by the [], the [] inside is a number of elements. 
+// To begin with, underneath the opening, the nameOfArrays[] and the inside of [] is index of a element and a integer.
+// While the [] is containing the inside of [].
+// = to inside of {} are the values and the integers for creating a number of elements. 
+
+public class Arrays : MonoBehaviour{
+// The comments of IfLoopsStatement is the same thing as Arrays Statement. 
+    int i = 0; 		
+	  public string[] favorites;
+    
+    void Start () {
+    
+        i = 0;
+		while (i<favorites.Length)
+    
+		{
+		print(favorites[i]);
+		i ++;
+		}
+    
+    i = 0;
+		while (i<superman.Length)
+    
+		{
+		print(superman[i]);
+		i ++;
+		}
+    
+     i = 0;
+		while (i<Lucky.Length)
+    
+		{
+		print(Lucky[i]);
+		i ++;
+		}
+    
+     i = 0;
+		while (i<brown.Length)
+    
+		{
+		print(brown[i]);
+		i ++;
+		}
+    
+     i = 0;
+		while (i<whisper.Length)
+    
+		{
+		print(whisper[i]);
+		i ++;
+		}
+    
+     i = 0;
+		while (i<silver.Length)
+    
+		{
+		print(silver[i]);
+		i ++;
+		}
+    
+     i = 0;
+		while (i<lift.Length)
+    
+		{
+		print(lift[i]);
+		i ++;
+		}
+    
+     i = 0;
+		while (i<Up.Length)
+    
+		{
+		print(Up[i]);
+		i ++;
+		}
+    
+     i = 0;
+		while (i<Down.Length)
+    
+		{
+		print(Down[i]);
+		i ++;
+		}
+    
+     i = 0;
+		while (i<Right.Length)
+    
+		{
+		print(Right[i]);
+		i ++;
+		}
+    
+     i = 0;
+		while (i<Left.Length)
+    
+		{
+		print(Left[i]);
+		i ++;
+		}
+		
+    
