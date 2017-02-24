@@ -1,0 +1,47 @@
+using UnityEngine;
+using System.Collections;
+
+public class NewBehaviourScript : MonoBehaviour {
+  
+  
+  // Define int for a integer and a whole number.
+  // The declaration of the type as a int and the nameOfVariable as a myInt. 
+  // The Initialisation of the value as a number. 
+  // {} is the opening and closing.
+  // void Start is when the object and a script is attached to enters a scence.
+  // The Function of the FunctionName as a MultiplyByNumber and (Type parameterName) as a int number. 
+  // ret = number * 2;, it has been equal to the number variable.
+  // return ret is a return comment that runs this function that is outputs the value of ret. 
+  // = for equal.
+  // Remainder for dividing I think. 
+  {
+    public int addition = 12 + 4;// Addition to 4
+     }
+   {
+    public int subtraction = 12 - 4;// Subtract to 4
+     }
+   {
+    public float division = 5.0f / 2;// Division to 2
+     }
+   {
+    public int multiplication = 10 * 2;// Multiply to 2
+     }
+   {
+    public int remainder = 7 % 2;// Remainder to 2 
+    }
+
+	// Use this for initialization
+	void Start () {
+        addition += 9;// Addition to 9
+        }
+  {
+        subtraction -= 10;// Subtraction to 10
+        }
+   {
+        addition += 3;// Addition to 3
+        }
+   {
+        addition = 1;// Addition to 1
+	}
+	
+}
