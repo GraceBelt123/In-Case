@@ -1,0 +1,25 @@
+using UnityEngine;
+using System.Collections;
+using System.Collections.Generic;
+//Loops go to function. 
+//To print the element that is equal to Cat. 
+//The List of elements, the elements are items or animals which is Cat and Dog.  
+
+public class Problem2 ; MonoBehaviour {
+
+	public List<string> animals;
+
+	//Use this for initialization
+	void Start 90 {
+		foreach (string item in collection)
+		{
+			//Inside (), true or if (item == "Cat") can be used for. 
+			if (item == "Cat")
+	{
+		print(item);
+	}
+	}
+}
+}
+
+	
