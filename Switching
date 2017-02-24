@@ -1,0 +1,143 @@
+using UnityEngine;
+using System.Collections;
+
+public class switching : MonoBehaviour
+{
+    public int Great = 5;
+    public int Did = 5;
+    public int favorite = 5;
+    public int intergence = 5;
+    public string color;
+    public enum Colors { RED, GREEN, BLUE };
+
+    public enum GameStates
+    {
+        LOADING,
+        STARTING,
+        PLAYING,
+        ENDING,
+    }
+
+    public GameStates currentGameState = GameStates.LOADING;
+    //If checking on if statement and if switch statement to make sure of print(true) that it has to be true statement. 
+    //If checking on it statement and if switch statement to make sure of print(false) that it has to be false statement. 
+    //Else for print false.  
+    //nums is equal to any number that would be correct. If not, then it would be false. 
+    //There's only an amout of switching it could do. 
+    //If more than the limits, then you need to go into looping. 
+    //The switch is better because it's better than else if. When it hits number, then it's done. 
+    //The else statement will keep going through the whole statement. 
+    //An array is a collection of strings.
+    //Use this for initialization
+    void Start()
+    {
+       
+
+        switch (color)
+        {
+            //"GREEN" or Colors.GREEN can be used for
+            case Colors.GREEN:
+                print("Green");
+                break;
+            //"RED" or Colors.RED can be used for 
+            case Colors.RED:
+                print("Red");
+                break;
+            //"Blue" or Colors.BLUE can be used for
+            case Colors.BLUE:
+                print("Blue");
+                break;
+
+            default:
+                print(color);
+                break;
+        }
+
+        switch (favorite)
+        {
+            case favorite.DOG:
+                print("Dog");
+                break;
+            case favorite.CAT:
+                print("Cat!");
+                break;
+            case favorite.BOOK:
+                print("Book");
+                break;
+            case favorite.CHOCOLATE:
+                print("Chocolate");
+                break;
+            case favorite.HOUSE:
+                print("House");
+                break;
+            default:
+                print("Favorite");
+                break;
+        }
+
+         switch (intergence)
+        {
+            case know.B123:
+                print("B123");
+                break;
+            case know.B789:
+                print("B789");
+                break;
+            case know.B908:
+                print("B908");
+                break;
+            case know.B907:
+                print("B907");
+                break;
+            case know.B905:
+                print("B905");
+                break;
+            default:
+                print("intergence");
+                break;
+        }
+
+        switch (Did)
+        {
+            case Have. BOOK:
+                print("Book");
+                break;
+            case Have.SHOES:
+                print("Shoes");
+                break;
+            case Have.STRING:
+                print("String");
+                break;
+            case Have.LETTER:
+                print("Letter");
+                break;
+            case Have.BEEN:
+                print("Been");
+                break;
+            default:
+                print("Did");
+                break;
+        }
+        switch (Great)
+        {
+            case Great.DAY:
+                print("Have a great day.");
+                break;
+            case Great.NIGHT:
+                print("Have a great night.");
+                break;
+            case Great.WEATHER:
+                print("Have a great weather.");
+                break;
+            case Great.EVENING:
+                print("Have a great evening.");
+                break;
+            case Great.SUNNY:
+                print("Have a great sunny.");
+                break;
+            default:
+                print("Great");
+                break;
+        }
+    }
+}
