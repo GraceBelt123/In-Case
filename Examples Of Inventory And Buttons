@@ -1,0 +1,51 @@
+Unity.com
+	go to Learn, click "Tutorials", down below of a browse, watch "Interace & Essentials" and "Scripting".//Studying 3 hrs or 30 minutes. 
+
+//Must be two scripts for homework. 
+First Script) List Homework: to start with a new script called Inventory.//The example of the AddToInventoryLists and the List. 
+
+	- Error: Big problems with Inventory need to be fixed, then to be adding. 
+
+In Inventory Script,
+//To start with 
+		using UnityEngine;
+		using System.Collections;
+
+		public class Inventory : MonoBehaviour
+		
+		public List<string> weapons;//is this the list of things go on and every loop? A given of the name: weapons or animals can 
+be used for. 
+//yet the start has been deleted for a reason as I concerned by following the instruction. 
+		
+		
+			
+
+
+Second Script) Buttons Homework: click "Interace & Essentials", then find "Adding Buttons to a Custom Inspector".
+//Alright, I am going to go and watch the video unity about creating buttons in c# script. 
+
+//To begin with 
+
+	using UnityEngine;
+	using System.Collections;
+
+	public class Buttons : MonoBehaviour
+	// The Buttons is a name of the script, and is between the public class and the : MonoBehaviour. 
+{
+		public GameObject obj;
+		public Vector3 spawnPoint;
+
+		public void BuildObject ()
+		{
+			Instantiate(obj, spawnPoint, Quaternion.identity);
+
+//No, Actually, it should be begin with but I am not exactly sure. 
+//I find examples what he showed us on the written whiteboard.It's right here underneath this sentence.
+//No, I am confusing what to begin with!
+
+	using UnityEngine;
+	using System.Collections;//Adding to the list. 
+	
+	public class Inventory : MonoBehaviour
+//Examples:
+	public Inventory;
